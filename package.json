@@ -1,0 +1,23 @@
+{
+    "name": "mod_permute",
+    "version": "1.0.0",
+    "description": "A permutation script based on SEPA",
+    "main": "mod_permute.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Subterrane/mod_permute"
+    },
+    "keywords": [
+        "permute",
+        "permutate",
+        "permutation"
+    ],
+    "author": {
+            "name": "Will Munslow",
+            "email": "will@subterrane.com"
+    },
+    "readmeFilename": "README.md"
+}
