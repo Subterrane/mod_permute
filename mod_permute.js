@@ -3,7 +3,7 @@
 function permute(str, len) {
     'use strict';
     var key    = len - 1,
-        newkey = len - 1,
+        newKey = len - 1,
         temp;
 
     while ((key > 0) && (str[key] <= str[key - 1])) {
@@ -15,13 +15,13 @@ function permute(str, len) {
         return false;
     }
 
-    while ((newkey > key) && (str[newkey] <= str[key])) {
-        newkey = newkey - 1;
+    while ((newKey > key) && (str[newKey] <= str[key])) {
+        newKey = newKey - 1;
     }
 
     temp        = str[key];
-    str[key]    = str[newkey];
-    str[newkey] = temp;
+    str[key]    = str[newKey];
+    str[newKey] = temp;
 
     len = len - 1;
     key = key + 1;
