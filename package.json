@@ -1,6 +1,6 @@
 {
   "name": "mod_permute",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A permutation script based on SEPA",
   "main": "mod_permute.js",
   "scripts": {
