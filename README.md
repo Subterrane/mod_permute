@@ -1,14 +1,3 @@
-
-===========
-
-
-
-Example Usage
--------------
-	
-
-
-
 # mod_permute
 
 A permuation module based on Jeffrey A. Johnson's SEPA: A Simple, Efficient Permutation Algorithm
