@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/Subterrane/mod_permute"
   },
+  "tonicExampleFilename": "test.js",
   "keywords": [
     "permute",
     "permutate",
